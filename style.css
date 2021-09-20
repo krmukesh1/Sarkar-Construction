@@ -346,7 +346,7 @@ section.feature {
 .fcontent.text-center {
   display: flex;
   flex-direction: column;
-  width: 52%;
+  width: 49%;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -379,7 +379,7 @@ i.fa.fa-phone {
   line-height: 30px;
 }
 .top {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .top a {
   text-decoration: none;
@@ -390,6 +390,31 @@ i.fa.fa-phone {
   font-size: 24px;
   color: #d08e02;
   padding-right: 15px;
+}
+/* card */
+abbr {
+  text-decoration: line-through;
+}
+.cardb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .fa {
+  margin-right: 10px !important;
+  color: #d08e02;
+  font-size: 16px !important;
+}
+.card a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+a:hover {
+  color: #7a7a7a;
+}
+.card-demo .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 0rem;
 }
 @media (max-width: 1480px) {
   #banner {
