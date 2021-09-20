@@ -129,6 +129,26 @@ p {
   max-width: 100%;
 }
 /* slider */
+section.main-bg-2 {
+  padding: 50px 0 100px;
+}
+.col-md-12.content.text-center {
+  width: 50%;
+  margin: 0 auto 50px;
+}
+p.companies {
+  font-size: 1.1rem;
+  color: #787878;
+}
+.col-md-12.content.text-center h6 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #d08e02;
+}
+.col-md-12.content.text-center h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 
 .slick-slide {
   margin: 0px 20px;
