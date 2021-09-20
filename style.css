@@ -5,6 +5,14 @@
 }
 p {
   font-size: 1.2rem;
+  color: #787878;
+}
+h6 {
+  color: #d08e02;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 .video {
   height: 100%;
@@ -136,15 +144,6 @@ section.main-bg-2 {
 p.companies {
   color: #787878;
 }
-.col-md-12.content.text-center h6 {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-  color: #d08e02;
-}
-.col-md-12.content.text-center h2 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
 
 .slick-slide {
   margin: 0px 20px;
@@ -259,6 +258,10 @@ p.companies {
   margin-left: 45px;
 }
 /* vision content */
+
+section.vission {
+  padding: 50px 0 100px;
+}
 img.house {
   width: 100%;
   height: 100%;
@@ -275,13 +278,7 @@ img.house {
 .col-md-6.left-content {
   width: 49%;
 }
-.col-md-6.left-content h6 {
-  color: #d08e02;
-}
-.col-md-6.left-content h2 {
-  font-size: 3rem;
-  padding: 20px 0;
-}
+
 .col-md-6.left-content p {
   padding: 0px 0px 20px;
 }
@@ -296,6 +293,7 @@ i.fa.fa-building {
 .col-md-6.w-6 {
   width: 60%;
   height: 90vh;
+  padding: 0;
 }
 .col-md-6.w-4 {
   width: 40%;
@@ -307,13 +305,12 @@ i.fa.fa-building {
 }
 .vscontent h2 {
   font-size: 1.7rem;
-  padding: 10px 0;
+  padding: 10px 0 0;
   opacity: 0.7;
 }
 .vscontent p {
   font-size: 1rem;
-  padding: 10px 0;
-  color: #787878;
+  padding: 10px 0 0;
 }
 /* carousel */
 
@@ -328,13 +325,71 @@ i.fa.fa-building {
   position: absolute;
   right: 10%;
   text-align: right;
-  width: 50%;
-  top: 50%;
+  width: 42%;
+  top: 30%;
   color: #fff;
 }
 .over-img {
   bottom: 0;
   position: absolute;
+}
+.overlay h2 {
+  font-size: 4rem;
+}
+.carousel-inner {
+  height: 100vh;
+}
+/* feature */
+section.feature {
+  margin: 50px 0;
+}
+.fcontent.text-center {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+img.fimage {
+  width: 100%;
+  height: 100%;
+}
+.feature .col-md-6.w-4 {
+  background: #eeeeee;
+  display: block;
+  padding: 50px 20px;
+}
+.fcontent h4 {
+  font-size: 2rem;
+}
+.fcontent a {
+  text-decoration: none;
+  color: #787878;
+}
+
+.flcontent h5 {
+  padding: 20px 0 0;
+}
+i.fa.fa-map-marker,
+i.fa.fa-phone {
+  margin-right: 20px;
+  color: #d08e02;
+  font-size: 24px;
+  line-height: 30px;
+}
+.top {
+  padding: 20px 0;
+}
+.top a {
+  text-decoration: none;
+  color: #787878;
+  padding: 0 80px 0 0;
+}
+.top .fa {
+  font-size: 24px;
+  color: #d08e02;
+  padding-right: 15px;
 }
 @media (max-width: 1480px) {
   #banner {
