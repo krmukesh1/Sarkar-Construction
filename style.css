@@ -392,6 +392,9 @@ i.fa.fa-phone {
   padding-right: 15px;
 }
 /* card */
+section.card-demo {
+  margin: 50px 0;
+}
 abbr {
   text-decoration: line-through;
 }
@@ -415,6 +418,18 @@ a:hover {
 .card-demo .card-body {
   flex: 1 1 auto;
   padding: 1rem 0rem;
+}
+/* benefits */
+section.benefits {
+  padding: 50px 0;
+  background: #eeeeee;
+}
+.bcontent.text-left {
+  width: 50%;
+  padding: 0 0 50px;
+}
+.bcontents {
+  width: 75%;
 }
 @media (max-width: 1480px) {
   #banner {
