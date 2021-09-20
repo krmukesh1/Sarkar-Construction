@@ -33,17 +33,52 @@
   top: 0;
   left: 0;
 } */
-
+.video {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  direction: ltr;
+}
 #banner {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/modern-house-exterior.jpg);
+  background-image: url(images/modern-house-exterior.jpg);
   height: 94vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
+.video {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  direction: ltr;
+}
+iframe {
+  border: 0;
+  width: 1560px;
+  height: 860px;
+}
+.banner-shadow {
+  background-color: #7e7e7e;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
 .text-box {
   position: absolute;
   width: 30%;
@@ -73,7 +108,7 @@ p {
   margin-bottom: -100px;
   position: absolute;
   bottom: 0;
-  left: 10%;
+  left: 9%;
   display: flex;
   max-width: 30%;
 }
@@ -347,13 +382,18 @@ i.fa.fa-building {
   }
   .text-box {
     position: absolute;
-    width: 30%;
-    top: 35%;
-    left: 25%;
+    width: 45%;
+    top: 55%;
+    left: 31%;
     transform: translate(-50%, -50%);
   }
   h1 {
-    font-size: 4rem;
+    font-size: 6rem;
+    line-height: 85px;
+    margin-bottom: 20px;
+  }
+  .text-box p {
+    font-size: 1.2rem;
   }
   .contact-us {
     margin-bottom: -140px;
