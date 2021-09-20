@@ -3,36 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .banner .elementor-background-video-container {
-  -webkit-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
-  pointer-events: none;
+p {
+  font-size: 1.2rem;
 }
-
-.banner .elementor-background-video-container {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-
-  overflow: hidden;
-  z-index: 0;
-  direction: ltr;
-}
-.banner .elementor-background-overlay {
-  background-color: #7e7e7ebd;
-  opacity: 1;
-  mix-blend-mode: multiply;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-}
-
-.banner .elementor-background-overlay {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-} */
 .video {
   height: 100%;
   width: 100%;
@@ -52,19 +25,10 @@
   background-size: cover;
   color: #fff;
 }
-.video {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  overflow: hidden;
-  z-index: 0;
-  direction: ltr;
-}
+
 iframe {
   border: 0;
-  width: 1560px;
+  width: 1530px;
   height: 860px;
 }
 .banner-shadow {
@@ -89,9 +53,7 @@ iframe {
 h1 {
   font-size: 5rem;
 }
-p {
-  font-size: 1.5rem;
-}
+
 .Shadow-img {
   position: absolute;
   width: 70%;
@@ -172,7 +134,6 @@ section.main-bg-2 {
   margin: 0 auto 50px;
 }
 p.companies {
-  font-size: 1.1rem;
   color: #787878;
 }
 .col-md-12.content.text-center h6 {
@@ -322,7 +283,6 @@ img.house {
   padding: 20px 0;
 }
 .col-md-6.left-content p {
-  font-size: 1rem;
   padding: 0px 0px 20px;
 }
 .vscontent a {
@@ -378,7 +338,7 @@ i.fa.fa-building {
 }
 @media (max-width: 1480px) {
   #banner {
-    height: 127vh;
+    height: 121.5vh;
   }
   .text-box {
     position: absolute;
@@ -392,9 +352,7 @@ i.fa.fa-building {
     line-height: 85px;
     margin-bottom: 20px;
   }
-  .text-box p {
-    font-size: 1.2rem;
-  }
+
   .contact-us {
     margin-bottom: -140px;
     max-width: 40%;
