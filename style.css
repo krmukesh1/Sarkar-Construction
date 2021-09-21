@@ -645,6 +645,15 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
     max-width: 60%;
   }
 }
+@media (max-width: 950) {
+  .offcanvas-end {
+    top: 0;
+    left: -41% !important;
+    width: 400px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+  }
+}
 @media (max-width: 768px) {
   .text-box {
     position: absolute;
@@ -692,6 +701,9 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   }
 }
 @media (max-width: 767px) {
+  li.nav-item {
+    padding-left: 30px;
+  }
   p {
     font-size: 1rem;
     color: #787878;
@@ -702,7 +714,7 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   }
   .offcanvas-end {
     top: 0;
-    left: -100% !important;
+    left: -65% !important;
     width: 360px;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     transform: translateX(100%);
