@@ -534,8 +534,8 @@ section.benefits {
   padding: 50px 50px;
   box-shadow: 0rem 0rem 5px;
   position: absolute;
-  top: 32%;
-  left: 20%;
+  top: 30%;
+  left: 30%;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -695,7 +695,13 @@ footer hr {
 }
 @media (max-width: 1500px) {
   #banner {
-    height: 121.5vh;
+    height: 111.5vh;
+  }
+  .back-video {
+    min-height: 111.5vh;
+  }
+  .topnav {
+    padding: 15px 100px;
   }
   .text-box {
     position: absolute;
@@ -732,6 +738,19 @@ footer hr {
   }
   section.news {
     height: 100%;
+  }
+  .carousel-container {
+    width: 510px;
+    height: 350px;
+    padding: 50px 50px;
+    box-shadow: 0rem 0rem 5px;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 1300px) {
@@ -937,7 +956,12 @@ footer hr {
   .feature .col-md-6.w-4 {
     background: #eeeeee;
     display: block;
-    padding: 51px 0px;
+    padding: 51px 10px;
+  }
+  .flcontent .top a {
+    text-decoration: none;
+    color: #787878;
+    padding: 0 50px 0 0;
   }
   .ftop.text-center {
     width: 100%;
@@ -969,8 +993,11 @@ footer hr {
   footer {
     font-family: serif !important;
 
-    padding: 270px 0 20px;
+    padding: 270px 10px 20px;
     background-image: url(images/footer-overlay.png);
+  }
+  .bfoo {
+    display: block;
   }
 }
 @media (max-width: 600px) {
