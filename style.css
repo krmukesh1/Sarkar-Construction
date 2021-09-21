@@ -15,6 +15,17 @@ h2 {
   font-size: 3.5rem;
   margin-bottom: 20px;
 }
+.offcanvas.show {
+  transform: translateX(100%);
+  right: 2% !important;
+}
+.offcanvas-end {
+  top: 0;
+  left: -44% !important;
+  width: 400px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+}
 .video {
   height: 100%;
   width: 100%;
@@ -25,9 +36,9 @@ h2 {
   z-index: 0;
   direction: ltr;
 }
-a.nav-link {
+/* a.nav-link {
   color: #fff !important;
-}
+} */
 #banner {
   position: relative;
   background-image: url(images/modern-house-exterior.jpg);
@@ -36,8 +47,6 @@ a.nav-link {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  top: -95px;
-  z-index: -999;
 }
 
 iframe {
