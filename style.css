@@ -654,7 +654,7 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
 @media (max-width: 950px) {
   .offcanvas-end {
     top: 0;
-    left: -41% !important;
+    left: -53% !important;
     width: 400px;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     transform: translateX(100%);
