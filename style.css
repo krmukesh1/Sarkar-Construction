@@ -29,22 +29,26 @@ a.navbar-brand img {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateX(100%);
 }
-.video {
-  height: 100%;
+
+.back-video {
+  min-height: 121vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.back-video video {
   top: 0;
   left: 0;
+  object-fit: cover;
+  height: 100%;
   position: absolute;
-  overflow: hidden;
-  z-index: 0;
-  direction: ltr;
-}
-.back-video {
-  height: 100vh;
   width: 100%;
 }
 video {
-  height: 121.3vh;
+  height: 100%;
+  overflow: hidden;
 }
 /* a.nav-link {
   color: #fff !important;
@@ -59,11 +63,6 @@ video {
   color: #fff;
 }
 
-iframe {
-  border: 0;
-  width: 1530px;
-  height: 860px;
-}
 .banner-shadow {
   background-color: #7e7e7e;
   opacity: 1;
