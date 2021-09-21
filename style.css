@@ -706,12 +706,12 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   .text-box {
     position: absolute;
     width: 100%;
-    top: 0%;
+    top: 20%;
   }
-  .text-box {
-    position: absolute;
-    width: 80%;
-    top: 0%;
+  h1 {
+    font-size: 3rem;
+    line-height: 50px;
+    margin-bottom: 20px;
   }
   .contact-us {
     display: none;
