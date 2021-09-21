@@ -410,6 +410,9 @@ i.fa.fa-phone {
   padding-right: 15px;
 }
 /* card */
+.card-demo .card {
+  border: 0;
+}
 section.card-demo {
   margin: 50px 0;
 }
@@ -439,8 +442,11 @@ a:hover {
 }
 /* benefits */
 section.benefits {
+  background-image: url(images/white-plaster-texture.jpg);
   padding: 50px 0;
-  background: #eeeeee;
+  height: 80vh;
+  display: flex;
+  align-items: center;
 }
 .bcontent.text-left {
   width: 50%;
@@ -452,6 +458,9 @@ section.benefits {
 /* news */
 section.news {
   padding: 50px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 section.news .btn {
   margin: 20px auto;
@@ -547,9 +556,7 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   .text-box {
     position: absolute;
     width: 45%;
-    top: 55%;
-    left: 31%;
-    transform: translate(-50%, -50%);
+    top: 30%;
   }
   h1 {
     font-size: 6rem;
@@ -561,14 +568,100 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
     margin-bottom: -140px;
     max-width: 40%;
   }
+  #premium .pt-5 {
+    padding-top: 3rem !important;
+    width: 50%;
+  }
   .split-img {
     width: 50%;
   }
   #premium h4 {
     font-size: 3rem;
   }
-
-  #premium .pt-5 {
-    padding-top: 8rem !important;
+  .overlay {
+    left: 20%;
+    width: 45%;
+  }
+  section.benefits {
+    height: 100vh;
+  }
+  section.news {
+    height: 100%;
+  }
+}
+@media (max-width: 1300px) {
+  .text-box {
+    position: absolute;
+    width: 52%;
+  }
+  .overlay {
+    left: 20%;
+    width: 50%;
+  }
+}
+@media (max-width: 1150px) {
+  .text-box {
+    position: absolute;
+    width: 60%;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .overlay {
+    left: 20%;
+    width: 49%;
+  }
+  .overlay h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1040px) {
+  .text-box {
+    position: absolute;
+    width: 75%;
+    top: 20%;
+  }
+  .contact-us {
+    margin-bottom: -140px;
+    max-width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .text-box {
+    position: absolute;
+    width: 80%;
+    top: 20%;
+  }
+  .contact-us {
+    margin-bottom: -140px;
+    max-width: 75%;
+  }
+  .feature .col-md-6.w-4 {
+    width: 100%;
+  }
+  section.benefits {
+    height: 100%;
+  }
+  .bcontent.text-left {
+    width: 100%;
+    padding: 0 0 50px;
+  }
+  .col-md-6.btn-right {
+    display: flex;
+    align-items: baseline;
+    justify-content: start;
+  }
+  .col-md-6.w-4 {
+    width: 100%;
+  }
+  .overlay {
+    left: 0%;
+    width: 99%;
+  }
+  .fcontent.text-center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
