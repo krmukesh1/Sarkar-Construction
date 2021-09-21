@@ -879,4 +879,7 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
     top: 0;
     left: -100% !important;
   }
+  a.nav-link {
+    color: #000 !important ;
+  }
 }
