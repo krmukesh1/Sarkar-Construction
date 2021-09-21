@@ -456,7 +456,7 @@ img.fimage {
 }
 i.fa.fa-map-marker,
 i.fa.fa-phone {
-  margin-right: 20px;
+  margin-right: 24px;
   color: #d08e02;
   font-size: 24px;
   line-height: 30px;
@@ -534,7 +534,7 @@ section.benefits {
   padding: 50px 50px;
   box-shadow: 0rem 0rem 5px;
   position: absolute;
-  top: 40%;
+  top: 32%;
   left: 20%;
   background-color: #fff;
   display: flex;
@@ -543,9 +543,9 @@ section.benefits {
 }
 .img img {
   position: absolute;
-  left: 50%;
+  left: 55%;
   max-width: 122px;
-  top: 30%;
+  top: 23%;
   z-index: 2;
 }
 .review {
@@ -556,16 +556,19 @@ section.benefits {
 
 .review-star {
   font-size: 12px;
+  padding: 20px 0;
 }
-
+.review p.py-2 {
+  font-size: 1.3rem;
+}
 .avatar {
   max-width: 75px;
   border-radius: 50%;
 }
 
 .side-img {
-  width: 50vw;
-  height: 100vh;
+  width: 47vw;
+  height: 92vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(images/testimonial.jpg);
@@ -621,7 +624,7 @@ footer a {
   color: #fff;
 }
 footer a:hover {
-  color: #fff;
+  color: #d08e02;
 }
 p.pb-2 {
   font-size: 1.1rem;
@@ -642,9 +645,16 @@ ul {
 }
 footer ul li {
   list-style: none;
+  padding: 5px 0;
 }
 footer ul li a {
   text-decoration: none;
+}
+footer i.fa.fa-map-marker,
+i.fa.fa-phone {
+  margin-right: 15px;
+  color: #d08e02;
+  font-size: 20px;
 }
 a.mlast {
   display: flex;
@@ -675,6 +685,13 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   padding: 14px 24px 14px 20px;
   color: #ffffff;
   background-color: #d08e02;
+}
+.bfoo {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  padding: 20px 0 0 0;
+  margin: 30px 0 0 0;
 }
 @media (max-width: 1500px) {
   #banner {
