@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Playfair Display", serif;
 }
 p {
   font-size: 1.2rem;
@@ -577,6 +578,7 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   }
   .split-img {
     width: 50%;
+    height: 100%;
   }
   #premium h4 {
     font-size: 3rem;
@@ -666,5 +668,13 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  #premium .pt-5 {
+    padding-top: 3rem !important;
+    width: 100%;
+  }
+  .split-img {
+    width: 100%;
+    height: 100%;
   }
 }
