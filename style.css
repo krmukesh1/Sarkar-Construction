@@ -339,6 +339,9 @@ i.fa.fa-building {
   bottom: 0;
   position: absolute;
 }
+.over-img img {
+  width: 100%;
+}
 .overlay h2 {
   font-size: 4rem;
 }
