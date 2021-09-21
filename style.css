@@ -25,6 +25,26 @@ h2 {
   top: 10px;
   width: 100%;
 }
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+  border: none;
+}
+.btn-close:focus {
+  outline: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: none;
+}
+i.fa.fa-bars {
+  color: #fff;
+  font-size: 30px;
+  border: 0;
+}
 nav.navbar.navbar-light.navbar-expand-lg.bnav {
   position: absolute;
   top: 70px;
