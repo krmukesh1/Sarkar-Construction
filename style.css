@@ -954,13 +954,13 @@ footer hr {
     display: none;
   }
   .carousel-container {
-    width: 400px;
-    height: 330px;
-    padding: 50px 50px;
+    width: 350px;
+    height: 370px;
+    padding: 50px 20px;
     box-shadow: 0rem 0rem 5px;
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 3.5%;
     background-color: #fff;
     display: flex;
     align-items: center;
