@@ -811,3 +811,9 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
     background-image: url(images/footer-overlay.png);
   }
 }
+@media (max-width: 550px) {
+  .offcanvas-end {
+    top: 0;
+    left: -100% !important;
+  }
+}
