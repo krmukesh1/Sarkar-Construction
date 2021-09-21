@@ -409,9 +409,7 @@ i.fa.fa-building {
 .overlay h2 {
   font-size: 4rem;
 }
-.carousel-inner {
-  height: 100vh;
-}
+
 /* feature */
 section.feature {
   margin: 50px 0;
@@ -521,6 +519,67 @@ section.benefits {
 }
 .bcontents {
   width: 75%;
+}
+/* slider carousel */
+.testi-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 50px 0;
+}
+.carousel-container {
+  width: 510px;
+  height: 350px;
+  padding: 50px 50px;
+  box-shadow: 0rem 0rem 5px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img img {
+  position: absolute;
+  left: 50%;
+  max-width: 122px;
+  top: 30%;
+  z-index: 2;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-star {
+  font-size: 12px;
+}
+
+.avatar {
+  max-width: 75px;
+  border-radius: 50%;
+}
+
+.side-img {
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(images/testimonial.jpg);
+}
+.rcontent {
+  display: flex;
+  align-items: center;
+}
+.content {
+  padding-left: 20px;
+}
+.content p {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
 /* news */
 section.news {
@@ -866,6 +925,29 @@ input.ekit_mail_email.ekit_form_control:focus-visible,
   .ftop.text-center {
     width: 100%;
     /* margin: 0 auto; */
+  }
+  /* carousel */
+  .side-img {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .img img {
+    display: none;
+  }
+  .carousel-container {
+    width: 400px;
+    height: 330px;
+    padding: 50px 50px;
+    box-shadow: 0rem 0rem 5px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   footer {
     font-family: serif !important;
