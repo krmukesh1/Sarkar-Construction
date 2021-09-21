@@ -973,7 +973,16 @@ footer hr {
     background-image: url(images/footer-overlay.png);
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
+  .offcanvas-end {
+    top: 0;
+    left: -72% !important;
+  }
+  a.nav-link {
+    color: #000 !important ;
+  }
+}
+@media (max-width: 450px) {
   .offcanvas-end {
     top: 0;
     left: -100% !important;
