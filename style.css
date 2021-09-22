@@ -1177,6 +1177,21 @@ footer hr {
     transform: translateX(100%);
   }
 }
+@media (max-width: 450px) {
+  .offcanvas-end {
+    top: 0;
+    left: -82% !important;
+    width: 300px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+  }
+  h5#offcanvasNavbarLabel {
+    margin-left: 27%;
+  }
+  .carousel-container {
+    width: 300px;
+  }
+}
 @media (max-width: 400px) {
   .offcanvas-end {
     top: 0;
