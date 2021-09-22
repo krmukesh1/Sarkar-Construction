@@ -1047,6 +1047,14 @@ footer hr {
   ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
     margin-left: 25%;
   }
+  section#team {
+    margin: 50px 0;
+    height: auto;
+  }
+  #team .tcard {
+    position: relative;
+    margin: 50px 0;
+  }
 }
 @media (max-width: 768px) {
   .text-box {
