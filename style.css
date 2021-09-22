@@ -1330,13 +1330,22 @@ footer hr {
   }
   /* carousel */
   .side-img {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
+    left: 0%;
   }
   .img img {
     display: none;
+  }
+  #apremium .pt-5 {
+    padding-top: 3rem !important;
+    width: 100%;
+  }
+  #partner .about-txt {
+    position: absolute;
+    color: #fff;
+    width: 90%;
+    top: 30%;
   }
   .carousel-container {
     width: 350px;
@@ -1345,7 +1354,7 @@ footer hr {
     box-shadow: 0rem 0rem 5px;
     position: absolute;
     top: 50%;
-    left: 3.5%;
+    left: 13.5%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -1387,6 +1396,9 @@ footer hr {
   }
   .carousel-container {
     width: 300px;
+  }
+  .col-md-3.col-sm-6.col-xs-6.text-center {
+    width: 50%;
   }
 }
 @media (max-width: 400px) {
