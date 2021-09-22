@@ -164,89 +164,43 @@
               ></iframe>
             </div>
           </div>
-          <!-- <div class="col-md-6">
-            <form
-              method="post"
-              class="gform php-email-form aos-init aos-animate"
-              data-aos="fade-up"
-            >
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
-                  />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    id="email"
-                    placeholder="Your Email"
-                    data-rule="email"
-                    data-msg="Please enter a valid email"
-                  />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
+
+          <div class="col-md-6">
+            <form class="row g-3">
+              <h2>Your Details</h2>
+              <div class="col-md-6 py-2">
+                <label for="inputname" class="form-label">First Name *</label>
                 <input
                   type="text"
                   class="form-control"
-                  name="subject"
-                  id="subject"
-                  placeholder="Subject"
-                  data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject"
+                  placeholder="Your Nmae"
+                  id="inputname"
                 />
-                <div class="validate"></div>
               </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  rows="5"
-                  data-rule="required"
-                  data-msg="Please write something for us"
-                  placeholder="Message"
-                ></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
-                </div>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="hero-btn">Send Message</button>
-              </div>
-            </form>
-          </div> -->
-          <div class="col-md-6">
-            <form class="row g-3">
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" />
-              </div>
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Password</label>
+              <div class="col-md-6 py-2">
+                <label for="inputEmail4" class="form-label"
+                  >Email Address *</label
+                >
                 <input
-                  type="password"
+                  type="email"
                   class="form-control"
-                  id="inputPassword4"
+                  placeholder="some@gmail.com"
+                  id="inputEmail4"
                 />
               </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label">Address</label>
+              <div class="col-md-12 py-2">
+                <label for="inputmsg" class="form-label">Message *</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Subject"
+                  id="inputmsg"
+                />
+              </div>
+              <div class="col-12 py-2">
+                <label for="inputAddress" class="form-label"
+                  >Comments / Questions *</label
+                >
                 <textarea
                   class="form-control"
                   name="message"
