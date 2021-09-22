@@ -666,6 +666,28 @@ section.news .card a {
   margin: 0px 0px 0px 0px;
   border: 0;
 }
+
+/* about */
+#partner {
+  margin: 50px 0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(images/modern-apartment-buildings.jpg);
+}
+#partner .Shadow-img {
+  position: absolute;
+  width: auto;
+  bottom: 0;
+  right: 0;
+}
+#partner .about-txt {
+  position: absolute;
+  color: #fff;
+  width: 34%;
+  top: 30%;
+}
 /* footer */
 footer {
   background: #000;
@@ -799,6 +821,15 @@ footer hr {
     padding-top: 3rem !important;
     width: 50%;
   }
+  #apremium .pt-5 {
+    padding-top: 3rem !important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+  }
+
   .split-img {
     width: 50%;
     height: 100%;
