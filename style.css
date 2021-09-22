@@ -417,6 +417,7 @@ img.house {
 .vscontent a {
   color: #000;
   text-decoration: none;
+  font-family: "Playfair Display", serif;
 }
 i.fa.fa-building {
   font-size: 3rem;
@@ -754,6 +755,9 @@ footer hr {
   margin: 2rem 0;
 }
 @media (max-width: 1500px) {
+  p {
+    font-size: 1rem;
+  }
   #banner {
     height: 124.5vh;
   }
@@ -784,9 +788,11 @@ footer hr {
     line-height: 85px;
     margin-bottom: 20px;
   }
-
+  .text-box p.pr-4 {
+    padding-right: 75px;
+  }
   .contact-us {
-    margin-bottom: -140px;
+    margin-bottom: -200px;
     max-width: 40%;
   }
   #premium .pt-5 {
