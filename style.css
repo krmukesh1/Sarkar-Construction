@@ -77,6 +77,9 @@ nav.navbar.navbar-light.navbar-expand-lg.bnav {
 a.nav-link.active {
   color: #d08e02 !important;
 }
+a.nav-link:hover {
+  color: #d08e02 !important;
+}
 a.nav-link {
   color: #fff !important;
 }
@@ -127,8 +130,23 @@ video {
   background-size: cover;
   color: #fff;
 }
-
-.banner-shadow {
+#about-banner {
+  position: relative;
+  background-image: url(images/contemporary-design.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.about-text-box.text-center {
+  top: 40%;
+  position: absolute;
+  left: 33%;
+  width: 29%;
+}
+.banner-shadow,
+.about-shadow {
   background-color: #7e7e7e;
   opacity: 1;
   mix-blend-mode: multiply;
@@ -902,7 +920,12 @@ footer hr {
     width: 81%;
     top: 20%;
   }
-
+  .about-text-box.text-center {
+    top: 40%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
   h1 {
     font-size: 3rem;
     line-height: 50px;
