@@ -635,12 +635,22 @@ section.sbenefits {
 }
 
 .side-img {
+  width: 50%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(images/testimonial.jpg);
+  position: relative;
+  z-index: -1;
+  left: 55%;
+}
+/* .side-img {
   width: 47vw;
   height: 92vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(images/testimonial.jpg);
-}
+} */
 .rcontent {
   display: flex;
   align-items: center;
@@ -675,7 +685,21 @@ section.news .card a {
   margin: 0px 0px 0px 0px;
   border: 0;
 }
-
+.news .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 3rem 1rem 2rem;
+}
+.news .small,
+small {
+  font-size: 0.875em;
+  font-family: sans-serif;
+}
+.news .card-body h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 10px 0;
+}
 /* about */
 #partner {
   margin: 50px 0;
@@ -699,7 +723,7 @@ section.news .card a {
 }
 section#team {
   margin: 50px 0;
-  height: 100vh;
+  height: 80vh;
 }
 
 #team .tcard {
@@ -806,10 +830,51 @@ label.form-label {
   box-shadow: none;
   border: none;
 }
+section#apremium {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#apremium .pt-5 {
+  padding-top: 3rem !important;
+  width: 40%;
+}
+.funfact-content {
+  margin-top: 20px;
+}
+.super {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1em;
+  top: -10px;
+  left: 0px;
+  vertical-align: super;
+  color: #d08e02;
+}
+section#box-content {
+  padding: 50px 0;
+}
+.number-percentage-wraper {
+  font-family: "Inter", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+h5.funfact-title {
+  color: #828282;
+  font-weight: 200;
+  font-family: serif;
+}
+.btn-primary:hover {
+  color: #d08e02;
+
+  background-color: #ffffff;
+  border-color: #d08e02;
+}
 /* footer */
 footer {
   background: #000;
-  padding: 70px 0;
+  padding: 40px 0;
   position: relative;
   background-image: url(images/footer-overlay.png);
   background-repeat: no-repeat;
@@ -1018,6 +1083,10 @@ footer hr {
     color: #828282;
     font-weight: 200;
     font-family: serif;
+  }
+  .side-img {
+    width: 55%;
+    height: 90vh;
   }
 }
 @media (max-width: 1300px) {
