@@ -785,6 +785,27 @@ section#content iframe {
   width: 510px;
   height: 450px;
 }
+form.row.g-3 {
+  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 20px;
+  padding: 40px 40px 40px 40px;
+}
+label.form-label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.form-control {
+  border: 0;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+  border: none;
+}
 /* footer */
 footer {
   background: #000;
