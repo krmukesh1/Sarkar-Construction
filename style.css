@@ -690,6 +690,10 @@ section.news .card a {
   width: 34%;
   top: 30%;
 }
+section#team {
+  margin: 50px 0;
+}
+
 /* footer */
 footer {
   background: #000;
