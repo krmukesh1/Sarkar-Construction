@@ -1136,7 +1136,7 @@ footer hr {
 @media (max-width: 1380px) {
   .text-box {
     position: absolute;
-    width: 52%;
+    width: 50%;
   }
   .overlay {
     left: 20%;
