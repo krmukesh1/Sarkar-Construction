@@ -873,6 +873,11 @@ h5.funfact-title {
   background-color: #ffffff;
   border-color: #d08e02;
 }
+.card-content.mb-3 a {
+  text-decoration: none;
+  color: #d08e02;
+  text-transform: uppercase;
+}
 /* footer */
 footer {
   background: #000;
