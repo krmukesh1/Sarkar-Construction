@@ -1164,6 +1164,9 @@ footer hr {
     margin: 100px 0;
     height: auto;
   }
+  .bcontents {
+    width: 90%;
+  }
 }
 @media (max-width: 1150px) {
   .text-box {
