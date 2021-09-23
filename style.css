@@ -242,7 +242,7 @@ h1 {
   padding: 60px 0px 100px 0px;
 }
 .split-img {
-  background: url(images/about-us-3.jpg);
+  background: url("image/eifel city.png");
   margin: -1px -1px -1px -1px;
   padding: 0px 0px 0px 0px;
   background-position: center;
@@ -253,10 +253,11 @@ h1 {
   border-color: #ffffff;
   width: 43%;
   margin: 0 auto;
+  height: 500px;
 }
 .split-img img {
   border-style: none;
-  height: auto;
+  height: 500px;
   max-width: 100%;
 }
 #premium .pt-5 {
