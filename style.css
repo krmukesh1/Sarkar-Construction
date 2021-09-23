@@ -222,7 +222,7 @@ h1 {
 }
 .btn {
   padding: 15px 24px;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px;
   font-family: "Inter", Sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -241,7 +241,7 @@ h1 {
   margin-bottom: 0px;
   padding: 60px 0px 100px 0px;
 }
-.split-img {
+/* .split-img {
   background: url("image/eifel city.png");
   margin: -1px -1px -1px -1px;
   padding: 0px 0px 0px 0px;
@@ -254,8 +254,12 @@ h1 {
   width: 43%;
   margin: 0 auto;
   height: 500px;
+} */
+img.attachment-full.size-full {
+  width: 100%;
+  height: 450px;
 }
-.split-img img {
+/* .split-img img {
   border-style: none;
   height: 500px;
   max-width: 100%;
@@ -267,7 +271,7 @@ h1 {
   flex-direction: column;
   align-items: self-start;
   justify-content: center;
-}
+} */
 /* slider */
 section.main-bg-2 {
   padding: 50px 0 100px;
@@ -838,10 +842,7 @@ section#apremium {
   display: flex;
   align-items: center;
 }
-#apremium .pt-5 {
-  padding-top: 3rem !important;
-  width: 40%;
-}
+
 .funfact-content {
   margin-top: 20px;
 }
@@ -1044,23 +1045,7 @@ footer hr {
     margin-bottom: -200px;
     max-width: 40%;
   }
-  #premium .pt-5 {
-    padding-top: 3rem !important;
-    width: 50%;
-  }
-  #apremium .pt-5 {
-    padding-top: 3rem !important;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    justify-content: center;
-  }
 
-  .split-img {
-    width: 50%;
-    height: 100%;
-  }
   #premium h4 {
     font-size: 3rem;
   }
@@ -1419,6 +1404,10 @@ footer hr {
     margin-bottom: 0px;
     padding: 10px 0px 100px 0px;
   }
+  img.attachment-full.size-full {
+    width: 100%;
+    height: 350px;
+  }
   .Shadow-img {
     position: absolute;
     width: 100%;
@@ -1569,6 +1558,10 @@ footer hr {
   }
   .col-md-3.col-sm-6.col-xs-6.text-center {
     width: 50%;
+  }
+  img.attachment-full.size-full {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 400px) {
