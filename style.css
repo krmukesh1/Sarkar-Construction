@@ -1188,12 +1188,60 @@ footer hr {
 @media (max-width: 1040px) {
   .text-box {
     position: absolute;
-    width: 75%;
-    top: 20%;
+    width: 45%;
+    top: 30%;
+  }
+  #banner {
+    height: 60.5vh;
+  }
+  h1 {
+    font-size: 4rem;
+    line-height: 85px;
+    margin-bottom: 20px;
+  }
+  .back-video {
+    min-height: 60.5vh;
+  }
+  .topnav {
+    padding: 15px 40px;
   }
   .contact-us {
     margin-bottom: -140px;
     max-width: 60%;
+  }
+  .top a {
+    padding: 0 50px 0 0;
+  }
+  section.benefits {
+    height: auto;
+  }
+  .bcontents {
+    width: 100%;
+  }
+  .side-img {
+    width: 60%;
+    left: 40%;
+    height: 40vh;
+  }
+  .carousel-container {
+    left: 17%;
+  }
+  .news .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 0;
+  }
+  footer {
+    background: #000;
+    padding: 100px 0;
+  }
+  section#apremium {
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  section#content iframe {
+    width: 450px;
+    height: 450px;
   }
 }
 @media (max-width: 950px) {
@@ -1257,6 +1305,23 @@ footer hr {
   }
   .col-md-6.w-4 {
     width: 100%;
+    padding-left: 40px;
+    padding-top: 25px;
+  }
+  .vission .col-md-6.w-6 {
+    width: 100%;
+  }
+  .feature .col-md-6.w-6 {
+    padding: 0;
+    width: 100%;
+  }
+  .side-img {
+    width: 81%;
+    left: 25%;
+    height: 50vh;
+  }
+  .carousel-container {
+    left: 6%;
   }
   .overlay {
     left: 0%;
@@ -1274,6 +1339,33 @@ footer hr {
   .split-img {
     width: 100%;
     height: 100%;
+  }
+  section#content iframe {
+    width: 319px;
+    height: 420px;
+  }
+  .about-text-box.text-center {
+    top: 45%;
+    position: absolute;
+    left: 15%;
+    width: 70%;
+  }
+  #apremium .pt-5 {
+    padding-top: 3rem !important;
+    width: 100%;
+  }
+  #partner .about-txt {
+    position: absolute;
+    color: #fff;
+    width: 60%;
+    top: 40%;
+  }
+  .col-md-6.left-content {
+    width: 100%;
+  }
+  .col-md-6.btn-right .btn {
+    padding: 15px 24px;
+    margin: 0px 0px 30px 0px;
   }
 }
 @media (max-width: 767px) {
@@ -1413,7 +1505,7 @@ footer hr {
   #partner .about-txt {
     position: absolute;
     color: #fff;
-    width: 90%;
+    width: 100%;
     top: 30%;
   }
   .carousel-container {
@@ -1434,6 +1526,7 @@ footer hr {
 
     padding: 270px 10px 20px;
     background-image: url(images/footer-overlay.png);
+    background-repeat: no-repeat;
   }
   .bfoo {
     display: block;
@@ -1441,6 +1534,13 @@ footer hr {
   section#content iframe {
     width: 100%;
     height: 350px;
+  }
+  form.row.g-3 {
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 20px;
   }
 }
 @media (max-width: 600px) {
