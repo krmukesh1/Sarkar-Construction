@@ -506,7 +506,7 @@ img.fimage {
 .feature .col-md-6.w-4 {
   background: #eeeeee;
   display: block;
-  padding: 100px 60px;
+  padding: 100px 40px;
 }
 
 .fcontent h4 {
@@ -522,7 +522,7 @@ img.fimage {
 }
 i.fa.fa-map-marker,
 i.fa.fa-phone {
-  margin-right: 24px;
+  margin-right: 15px;
   color: #d08e02;
   font-size: 24px;
   line-height: 30px;
@@ -556,7 +556,7 @@ abbr {
   align-items: center;
 }
 .card .fa {
-  margin-right: 10px !important;
+  margin-right: 1px !important;
   color: #d08e02;
   font-size: 16px !important;
 }
