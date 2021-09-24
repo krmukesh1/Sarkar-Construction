@@ -1030,12 +1030,12 @@ footer hr {
   }
   .text-box {
     position: absolute;
-    width: 45%;
+    width: 47%;
     top: 45%;
   }
   h1 {
-    font-size: 6rem;
-    line-height: 85px;
+    font-size: 5rem;
+    line-height: 100px;
     margin-bottom: 20px;
   }
   .text-box p.pr-4 {
@@ -1122,7 +1122,7 @@ footer hr {
 @media (max-width: 1380px) {
   .text-box {
     position: absolute;
-    width: 50%;
+    width: 43%;
   }
   .overlay {
     left: 20%;
