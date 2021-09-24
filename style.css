@@ -1393,7 +1393,7 @@ footer hr {
   .text-box {
     position: absolute;
     width: 81%;
-    top: 20%;
+    top: 35%;
   }
   .about-text-box.text-center {
     top: 40%;
@@ -1590,13 +1590,18 @@ footer hr {
     left: 3.5%;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 380px) {
   .offcanvas-end {
     top: 0;
     left: -100% !important;
     width: 300px;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     transform: translateX(100%);
+  }
+  .text-box {
+    position: absolute;
+    width: 90%;
+    top: 30%;
   }
   h5#offcanvasNavbarLabel {
     margin-left: 26%;
