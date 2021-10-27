@@ -5,10 +5,31 @@
 }
 body {
   font-family: "Playfair Display", serif;
+  background: var(--background-color);
+}
+:root {
+  --background-color: #fff;
+  --heading-color: #000;
+  --secondary-color: #787878;
+  --golden-color: #d08e02;
+  --featured-color: #eeeeee;
+  --test-color: #787878;
+}
+.dark-theme {
+  --background-color: #000;
+  --heading-color: #fff;
+  --secondary-color: #fff;
+  --golden-color: #d08e02;
+  --featured-color: #000;
+  --test-color: #000;
+}
+li.changer {
+  list-style: none;
+  display: none;
 }
 p {
   font-size: 1.2rem;
-  color: #787878;
+  color: var(--secondary-color);
   font-family: sans-serif;
 }
 h6 {
@@ -26,7 +47,7 @@ ul.dropdown-menu.show li {
 h2 {
   font-size: 3.5rem;
   margin-bottom: 20px;
-
+  color: var(--heading-color);
   font-weight: 600;
 }
 .topnav {
@@ -35,7 +56,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 15px 300px;
-  border-bottom: 1px solid #787878;
+  border-bottom: 1px solid var(--secondary-color);
   position: absolute;
   top: 10px;
   width: 100%;
@@ -209,14 +230,14 @@ h1 {
   max-width: 30%;
 }
 .contact-left {
-  background: #fff;
-  color: #000;
+  background: var(--background-color);
+  color: var(--heading-color);
   padding: 50px 45px;
   width: 50%;
 }
 .contact-right {
-  background: #f4f4f4;
-  color: #000;
+  background: var(--background-color);
+  color: var(--heading-color);
   padding: 50px 45px;
   width: 50%;
 }
@@ -281,7 +302,7 @@ section.main-bg-2 {
   margin: 0 auto 50px;
 }
 p.companies {
-  color: #787878;
+  color: var(--secondary-color);
 }
 
 .slick-slide {
@@ -422,7 +443,7 @@ img.house {
   padding: 0px 0px 20px;
 }
 .vscontent a {
-  color: #000;
+  color: var(--heading-color);
   text-decoration: none;
   font-family: "Playfair Display", serif;
 }
@@ -504,21 +525,23 @@ img.fimage {
   justify-content: center;
 }
 .feature .col-md-6.w-4 {
-  background: #eeeeee;
+  background: var(--featured-color);
   display: block;
   padding: 100px 40px;
 }
 
 .fcontent h4 {
   font-size: 2rem;
+  color: var(--heading-color);
 }
 .fcontent a {
   text-decoration: none;
-  color: #787878;
+  color: var(--secondary-color);
 }
 
 .flcontent h5 {
   padding: 20px 0 0;
+  color: var(--heading-color);
 }
 i.fa.fa-map-marker,
 i.fa.fa-phone {
@@ -532,7 +555,7 @@ i.fa.fa-phone {
 }
 .top a {
   text-decoration: none;
-  color: #787878;
+  color: var(--secondary-color);
   padding: 0 80px 0 0;
 }
 .top .fa {
@@ -633,6 +656,7 @@ section.sbenefits {
 }
 .review p.py-2 {
   font-size: 1.3rem;
+  color: var(--test-color);
 }
 .avatar {
   max-width: 75px;
@@ -666,6 +690,7 @@ section.sbenefits {
 .content p {
   margin-top: 0;
   margin-bottom: 0rem;
+  color: var(--test-color);
 }
 /* news */
 section.news {
@@ -743,7 +768,7 @@ section#team {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: #fff;
+  background: var(--background-color);
   position: absolute;
   bottom: -50px;
   left: 15%;
@@ -1241,8 +1266,15 @@ footer hr {
   }
 }
 @media (max-width: 950px) {
+  li.changer {
+    display: block;
+  }
+  i#icons {
+    font-size: 20px;
+    color: #fff;
+  }
   .navbar-light .navbar-nav .nav-link {
-    color: #000;
+    color: var(--heading-color);
   }
   .topnav {
     display: none;
@@ -1371,7 +1403,7 @@ footer hr {
 
   p {
     font-size: 1rem;
-    color: #787878;
+    color: var(--secondary-color);
   }
   .offcanvas.show {
     transform: translateX(100%);
@@ -1476,13 +1508,13 @@ footer hr {
     margin: 0px 0px 25px 0px;
   }
   .feature .col-md-6.w-4 {
-    background: #eeeeee;
+    background: var(--featured-color);
     display: block;
     padding: 51px 10px;
   }
   .flcontent .top a {
     text-decoration: none;
-    color: #787878;
+    color: var(--secondary-color);
     padding: 0 50px 0 0;
   }
   .ftop.text-center {
