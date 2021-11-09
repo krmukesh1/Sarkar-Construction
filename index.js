@@ -1,20 +1,45 @@
 var icon = document.getElementById("icon");
-
-icon.onclick = function () {
+const darkMode = () => {
   document.body.classList.toggle("dark-theme");
-  if (document.body.classList.contains("dark-theme")) {
-    icon.class = "fa fa-moon-o";
-  } else {
-    icon.class = "fa fa-sun-o";
-  }
 };
+
+icon.addEventListener("click", () => {
+  setDarkMode = localStorage.getItem("dark-themee");
+  if (setDarkMode !== "on") {
+    darkMode();
+    setDarkMode = localStorage.setItem("dark-themee", "on");
+  } else {
+    darkMode();
+    setDarkMode = localStorage.setItem("dark-themee", null);
+  }
+});
+
+// localStorage
+let setDarkMode = localStorage.getItem("dark-themee");
+if (setDarkMode === "on") {
+  darkMode();
+}
+
+// for mobile screen
 var icons = document.getElementById("icons");
-
-icons.onclick = function () {
+const darkModes = () => {
   document.body.classList.toggle("dark-theme");
-  if (document.body.classList.contains("dark-theme")) {
-    icons.class = "fa fa-moon-o";
-  } else {
-    icons.class = "fa fa-sun-o";
-  }
 };
+
+icons.addEventListener("click", () => {
+  darkModes();
+  setDarkModes = localStorage.getItem("dark-themes");
+  if (setDarkModes !== "on") {
+    darkModes();
+    setDarkModes = localStorage.setItem("dark-themes", "on");
+  } else {
+    darkModes();
+    setDarkModes = localStorage.setItem("dark-themes", null);
+  }
+});
+
+// localStorage;
+let setDarkModes = localStorage.getItem("dark-themes");
+if (setDarkModes === "on") {
+  darkModes();
+}

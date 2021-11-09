@@ -190,7 +190,7 @@ video {
 }
 .banner-shadow,
 .about-shadow {
-  background-color: #7e7e7e;
+  background-color: var(--test-color);
   opacity: 1;
   mix-blend-mode: multiply;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -495,6 +495,7 @@ i.fa.fa-building {
 }
 .overlay h2 {
   font-size: 4rem;
+  color: #fff;
 }
 
 /* feature */
@@ -566,6 +567,7 @@ i.fa.fa-phone {
 /* card */
 .card-demo .card {
   border: 0;
+  background: var(--background-color);
 }
 section.card-demo {
   margin: 50px 0;
@@ -585,7 +587,7 @@ abbr {
 }
 .card a {
   text-decoration: none;
-  color: #7a7a7a;
+  color: var(--secondary-color);
 }
 .card a:hover {
   color: #7a7a7a;
@@ -593,6 +595,7 @@ abbr {
 .card-demo .card-body {
   flex: 1 1 auto;
   padding: 1rem 0rem;
+  color: var(--heading-color);
 }
 /* benefits */
 section.benefits {
@@ -632,7 +635,7 @@ section.sbenefits {
   position: absolute;
   top: 30%;
   left: 30%;
-  background-color: #fff;
+  background-color: var(--background-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -656,7 +659,7 @@ section.sbenefits {
 }
 .review p.py-2 {
   font-size: 1.3rem;
-  color: var(--test-color);
+  color: var(--secondary-color);
 }
 .avatar {
   max-width: 75px;
@@ -690,7 +693,6 @@ section.sbenefits {
 .content p {
   margin-top: 0;
   margin-bottom: 0rem;
-  color: var(--test-color);
 }
 /* news */
 section.news {
@@ -1092,7 +1094,7 @@ footer hr {
     position: absolute;
     top: 32%;
     left: 24%;
-    background-color: #fff;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1548,7 +1550,7 @@ footer hr {
     position: absolute;
     top: 50%;
     left: 13.5%;
-    background-color: #fff;
+
     display: flex;
     align-items: center;
     justify-content: center;
