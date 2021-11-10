@@ -14,6 +14,9 @@ body {
   --golden-color: #d08e02;
   --featured-color: #eeeeee;
   --test-color: #787878;
+  --visibility: visible;
+  --footer: #000;
+  --background: none;
 }
 .dark-theme {
   --background-color: #000;
@@ -22,6 +25,9 @@ body {
   --golden-color: #d08e02;
   --featured-color: #000;
   --test-color: #000;
+  --visibility: hidden;
+  --footer: transparent;
+  --background: transparent;
 }
 li.changer {
   list-style: none;
@@ -215,6 +221,7 @@ h1 {
   width: 70%;
   bottom: 0;
   right: 0;
+  visibility: var(--visibility);
 }
 
 .Shadow-img img {
@@ -489,6 +496,7 @@ i.fa.fa-building {
 .over-img {
   bottom: 0;
   position: absolute;
+  visibility: var(--visibility);
 }
 .over-img img {
   width: 100%;
@@ -599,11 +607,13 @@ abbr {
 }
 /* benefits */
 section.benefits {
-  background-image: url(images/white-plaster-texture.jpg);
+  /* background-image: url(images/white-plaster-texture.jpg); */
+  background-image: url(images/white-plaster.png);
   padding: 50px 0;
   height: 80vh;
   display: flex;
   align-items: center;
+  /* background: var(--none); */
 }
 section.sbenefits {
   background-image: url(images/white-plaster-texture.jpg);
@@ -910,11 +920,20 @@ h5.funfact-title {
 /* footer */
 footer {
   background: #000;
+  background: var(--footer) !important;
   padding: 40px 0;
   position: relative;
-  background-image: url(images/footer-overlay.png);
+  /* background-image: url(images/footer-overlay.png); */
   background-repeat: no-repeat;
   color: #fff;
+}
+.foo-img {
+  position: absolute;
+  top: 0;
+  visibility: var(--visibility);
+}
+.foo-img img {
+  width: 100%;
 }
 footer p {
   color: #fff;
@@ -1558,10 +1577,11 @@ footer hr {
   footer {
     font-family: serif !important;
 
-    padding: 270px 10px 20px;
+    padding: 270px 0px 20px;
     background-image: url(images/footer-overlay.png);
     background-repeat: no-repeat;
   }
+
   .bfoo {
     display: block;
   }
