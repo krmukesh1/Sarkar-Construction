@@ -196,7 +196,7 @@ video {
 }
 .banner-shadow,
 .about-shadow {
-  background-color: var(--test-color);
+  background-color: hsl(0, 0%, 47%);
   opacity: 1;
   mix-blend-mode: multiply;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -221,7 +221,6 @@ h1 {
   width: 70%;
   bottom: 0;
   right: 0;
-  visibility: var(--visibility);
 }
 
 .Shadow-img img {
@@ -496,7 +495,6 @@ i.fa.fa-building {
 .over-img {
   bottom: 0;
   position: absolute;
-  visibility: var(--visibility);
 }
 .over-img img {
   width: 100%;
@@ -930,7 +928,6 @@ footer {
 .foo-img {
   position: absolute;
   top: 0;
-  visibility: var(--visibility);
 }
 .foo-img img {
   width: 100%;
