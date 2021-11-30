@@ -1183,10 +1183,10 @@ footer hr {
     height: 80vh;
   }
   .carousel-container {
-    width: 420px;
-    height: 334px;
+    width: 475px;
+    height: 375px;
     padding: 18px 30px;
-    top: 30%;
+    top: 25%;
     left: 27%;
   }
   section#team {
