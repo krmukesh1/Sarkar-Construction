@@ -17,6 +17,8 @@ body {
   --visibility: visible;
   --footer: #000;
   --background: none;
+  --border: #fff;
+  --fcolor: #000;
 }
 .dark-theme {
   --background-color: #000;
@@ -28,6 +30,8 @@ body {
   --visibility: hidden;
   --footer: transparent;
   --background: transparent;
+  --border: #fff;
+  --fcolor: #000;
 }
 li.changer {
   list-style: none;
@@ -234,18 +238,21 @@ h1 {
   bottom: 0;
   display: flex;
   max-width: 30%;
+  border: 1px solid var(--border);
 }
 .contact-left {
   background: var(--background-color);
   color: var(--heading-color);
   padding: 50px 45px;
   width: 50%;
+  border: 1px solid var(--border);
 }
 .contact-right {
   background: var(--background-color);
   color: var(--heading-color);
   padding: 50px 45px;
   width: 50%;
+  border: 1px solid var(--border);
 }
 .btn {
   padding: 15px 24px;
@@ -258,6 +265,7 @@ h1 {
   color: #ffffff;
   background-color: #d08e02;
   border-radius: 0px 0px 0px 0px;
+  box-shadow: -6px 1px 25px 0px rgb(208 142 2 / 58%);
 }
 .btn a {
   text-decoration: none;
@@ -469,7 +477,7 @@ i.fa.fa-building {
 .vscontent h2 {
   font-size: 1.7rem;
   padding: 10px 0 0;
-  opacity: 0.7;
+  opacity: 1;
 }
 .vscontent p {
   font-size: 1rem;
@@ -627,6 +635,16 @@ section.sbenefits {
 .bcontents {
   width: 75%;
 }
+.bcontent.text-left h2,
+.bcontent.text-left p,
+.bcontents h2 {
+  color: var(--fcolor);
+}
+.bcontents ul li {
+  font-size: 1.2rem;
+  color: var(--fcolor);
+  font-family: sans-serif;
+}
 /* slider carousel */
 .testi-slider {
   display: flex;
@@ -636,9 +654,9 @@ section.sbenefits {
   padding: 50px 0;
 }
 .carousel-container {
-  width: 510px;
+  width: 539px;
   height: 350px;
-  padding: 50px 50px;
+  padding: 0px 30px;
   box-shadow: 0rem 0rem 5px;
   position: absolute;
   top: 30%;
@@ -647,6 +665,7 @@ section.sbenefits {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid var(--border);
 }
 .img img {
   position: absolute;
@@ -1260,10 +1279,10 @@ footer hr {
   .side-img {
     width: 60%;
     left: 40%;
-    height: 40vh;
+    height: 50vh;
   }
   .carousel-container {
-    left: 17%;
+    left: 15%;
   }
   .news .card-body {
     flex: 1 1 auto;
@@ -1559,17 +1578,19 @@ footer hr {
     top: 30%;
   }
   .carousel-container {
-    width: 350px;
+    width: 84%;
     height: 370px;
     padding: 50px 20px;
     box-shadow: 0rem 0rem 5px;
     position: absolute;
-    top: 50%;
-    left: 13.5%;
-
+    top: 66%;
+    left: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .testi-slider {
+    margin-bottom: 100px;
   }
   footer {
     font-family: serif !important;
@@ -1615,7 +1636,9 @@ footer hr {
     margin-left: 27%;
   }
   .carousel-container {
-    width: 300px;
+    width: 94%;
+    top: 60%;
+    left: 3%;
   }
   .col-md-3.col-sm-6.col-xs-6.text-center {
     width: 50%;
@@ -1657,7 +1680,13 @@ footer hr {
   h5#offcanvasNavbarLabel {
     margin-left: 26%;
   }
+
+  .testi-slider {
+    margin-bottom: 200px;
+  }
   .carousel-container {
-    width: 300px;
+    width: 93%;
+    height: 440px;
+    top: 60%;
   }
 }
