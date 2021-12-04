@@ -235,12 +235,6 @@ h1 {
   bottom: 0;
   right: 0;
 }
-.carousel-control-prev {
-  left: -50px;
-}
-.carousel-control-next {
-  right: -50px;
-}
 .Shadow-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
@@ -1217,7 +1211,7 @@ footer hr {
   .carousel-container {
     width: 475px;
     height: 375px;
-    padding: 18px 30px;
+    padding: 18px 50px;
     top: 25%;
     left: 27%;
   }
