@@ -235,7 +235,12 @@ h1 {
   bottom: 0;
   right: 0;
 }
-
+.carousel-control-prev {
+  left: -50px;
+}
+.carousel-control-next {
+  right: -50px;
+}
 .Shadow-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
