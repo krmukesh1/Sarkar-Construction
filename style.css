@@ -9,7 +9,9 @@ body {
 }
 :root {
   --background-color: #fff;
+  --background-eiffle: #fff;
   --heading-color: #000;
+
   --secondary-color: #787878;
   --golden-color: #d08e02;
   --featured-color: #eeeeee;
@@ -19,9 +21,11 @@ body {
   --background: none;
   --border: #fff;
   --fcolor: #000;
+  --box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
 }
 .dark-theme {
   --background-color: #000;
+  --background-eiffle: #a9a9a9;
   --heading-color: #fff;
   --secondary-color: #fff;
   --golden-color: #d08e02;
@@ -32,6 +36,7 @@ body {
   --background: transparent;
   --border: #fff;
   --fcolor: #000;
+  --box-shadow: -6px 1px 25px 0px rgb(208 142 2 / 58%);
 }
 li.changer {
   list-style: none;
@@ -215,7 +220,7 @@ video {
 
 .text-box {
   position: absolute;
-  width: 31%;
+  width: 39%;
   top: 35%;
 }
 h1 {
@@ -233,28 +238,25 @@ h1 {
   width: 100%;
 }
 .contact-us {
-  box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
+  box-shadow: var(--box-shadow);
   margin-top: 0px;
   margin-bottom: -200px;
   position: absolute;
   bottom: 0;
   display: flex;
   max-width: 30%;
-  border: 1px solid var(--border);
 }
 .contact-left {
   background: var(--background-color);
   color: var(--heading-color);
   padding: 50px 45px;
   width: 50%;
-  border: 1px solid var(--border);
 }
 .contact-right {
   background: var(--background-color);
   color: var(--heading-color);
   padding: 50px 45px;
   width: 50%;
-  border: 1px solid var(--border);
 }
 .btn {
   padding: 15px 24px;
@@ -542,7 +544,7 @@ img.fimage {
   justify-content: center;
 }
 .feature .col-md-6.w-4 {
-  background: var(--featured-color);
+  background: var(--background-eiffle);
   display: block;
   padding: 100px 40px;
 }
@@ -659,7 +661,7 @@ section.sbenefits {
   width: 539px;
   height: 350px;
   padding: 0px 30px;
-  box-shadow: 0rem 0rem 5px;
+  box-shadow: var(--box-shadow);
   position: absolute;
   top: 30%;
   left: 30%;
@@ -667,7 +669,6 @@ section.sbenefits {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--border);
 }
 .img img {
   position: absolute;
@@ -1042,7 +1043,7 @@ footer hr {
 }
 @media (max-width: 1700px) {
   .text-box {
-    width: 40%;
+    width: 45%;
   }
   .overlay {
     width: 40%;
@@ -1186,7 +1187,7 @@ footer hr {
 @media (max-width: 1380px) {
   .text-box {
     position: absolute;
-    width: 43%;
+    width: 50%;
   }
   .overlay {
     left: 20%;
@@ -1248,7 +1249,7 @@ footer hr {
 @media (max-width: 1040px) {
   .text-box {
     position: absolute;
-    width: 45%;
+    width: 57%;
     top: 30%;
   }
   #banner {
@@ -1463,7 +1464,7 @@ footer hr {
   }
   .text-box {
     position: absolute;
-    width: 81%;
+    width: 100%;
     top: 35%;
   }
   .about-text-box.text-center {
