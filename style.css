@@ -22,6 +22,7 @@ body {
   --border: #fff;
   --fcolor: #000;
   --box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
+  --opacity-shadow: 1;
 }
 .dark-theme {
   --background-color: #000;
@@ -37,6 +38,7 @@ body {
   --border: #fff;
   --fcolor: #000;
   --box-shadow: -6px 1px 25px 0px rgb(208 142 2 / 58%);
+  --opacity-shadow: 0;
 }
 li.changer {
   list-style: none;
@@ -236,6 +238,7 @@ h1 {
 
 .Shadow-img img {
   width: 100%;
+  opacity: var(--opacity-shadow);
 }
 .contact-us {
   box-shadow: var(--box-shadow);
@@ -510,6 +513,7 @@ i.fa.fa-building {
 }
 .over-img img {
   width: 100%;
+  opacity: var(--opacity-shadow);
 }
 .overlay h2 {
   font-size: 4rem;
@@ -953,6 +957,7 @@ footer {
 }
 .foo-img img {
   width: 100%;
+  opacity: var(--opacity-shadow);
 }
 footer p {
   color: #fff;
@@ -1128,7 +1133,7 @@ footer hr {
     width: 510px;
     height: 350px;
     padding: 50px 50px;
-    box-shadow: 0rem 0rem 5px;
+    box-shadow: var(--box-shadow);
     position: absolute;
     top: 32%;
     left: 24%;
@@ -1584,7 +1589,7 @@ footer hr {
     width: 84%;
     height: 370px;
     padding: 50px 20px;
-    box-shadow: 0rem 0rem 5px;
+    box-shadow: var(--box-shadow);
     position: absolute;
     top: 66%;
     left: 8%;
