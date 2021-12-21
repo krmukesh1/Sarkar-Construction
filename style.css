@@ -32,7 +32,7 @@ li.changer {
 p {
   font-size: 1.2rem;
   font-family: sans-serif;
-  color:#fff;
+  color: #fff;
 }
 h6 {
   color: #d08e02;
@@ -86,10 +86,20 @@ i.fa.fa-bars {
   border: 0;
 }
 nav.navbar.navbar-light.navbar-expand-lg.bnav {
-  position:fixed;
+  position: fixed;
   z-index: 1000;
   top: 0px;
   width: 100%;
+}
+.sticky {
+  background-color: #000 !important;
+  position: fixed;
+  padding: 10px 0;
+  height: 100px !important;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
+  transition: all 0.2s linear;
 }
 .tleft a {
   text-decoration: none;
@@ -224,10 +234,11 @@ h1 {
 .Shadow-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
+  opacity: 0.2;
 }
 .contact-us {
   box-shadow: var(--box-shadow);
-  background:url(images/b-brick.jpg);
+  background: url(images/b-brick.jpg);
   margin-top: 0px;
   margin-bottom: -200px;
   position: absolute;
@@ -236,7 +247,7 @@ h1 {
   max-width: 30%;
 }
 .contact-left {
-  background:transparent;
+  background: transparent;
   color: #fff;
   padding: 50px 45px;
   width: 50%;
@@ -500,6 +511,7 @@ i.fa.fa-building {
 .over-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
+  opacity: 0.2;
 }
 .overlay h2 {
   font-size: 4rem;
@@ -537,6 +549,8 @@ img.fimage {
   background: url(images/b-spotlight.jpg);
   display: block;
   padding: 100px 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .fcontent h4 {
@@ -604,10 +618,10 @@ abbr {
   flex: 1 1 auto;
   padding: 1rem 2rem;
   color: var(--heading-color);
+  height: 7rem;
 }
 /* benefits */
 section.benefits {
-  /* background-image: url(images/white-plaster-texture.jpg); */
   background-image: url(images/vector-plaster.png);
   padding: 50px 0;
   height: 80vh;
@@ -615,13 +629,10 @@ section.benefits {
   align-items: center;
   /* background: var(--none); */
 }
-/* section.sbenefits {
-  background-image: url(images/white-plaster-texture.jpg);
-  padding: 50px 0;
-  height: auto;
-  display: flex;
-  align-items: center;
-} */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
 .bcontent.text-left {
   width: 50%;
   padding: 0 0 50px;
@@ -944,6 +955,7 @@ footer {
 .foo-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
+  opacity: 0.2;
 }
 footer p {
   color: #fff;

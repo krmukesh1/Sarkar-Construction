@@ -64,66 +64,68 @@
           </ul>
         </div>
       </div> -->
+      <header id="header">
+        <nav class="navbar navbar-light navbar-expand-lg bnav">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="image/SOLITAIRE-white.png"
+            /></a>
+            <li class="changer">
+              <a href="#"><i class="fa fa-moon-o" id="icons"></i> </a>
+            </li>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="fa fa-bars"></i
+              ></span>
+            </button>
 
-      <nav class="navbar navbar-light navbar-expand-lg bnav">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="image/SOLITAIRE-white.png"
-          /></a>
-          <li class="changer">
-            <a href="#"><i class="fa fa-moon-o" id="icons"></i> </a>
-          </li>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#navbarOffcanvasLg"
-            aria-controls="navbarOffcanvasLg"
-          >
-            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-          </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="navbarOffcanvasLg"
+              aria-labelledby="navbarOffcanvasLgLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <a class="navbar-brand" href="#">
+                    <img src="images/logo-hestate.png"
+                  /></a>
+                </h5>
 
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="navbarOffcanvasLg"
-            aria-labelledby="navbarOffcanvasLgLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                <a class="navbar-brand" href="#">
-                  <img src="images/logo-hestate.png"
-                /></a>
-              </h5>
-
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="residential.html"
-                    >Residential Projects
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="commercial.html"
-                    >Urban Townships
-                  </a>
-                </li>
-                <!-- <li class="nav-item dropdown">
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="residential.html"
+                      >Residential Projects
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="commercial.html"
+                      >Urban Townships
+                    </a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="potfolio.html"
@@ -150,14 +152,15 @@
                     </li>
                   </ul>
                 </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-              </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
       <div class="container">
         <div class="text-box">
           <h1>Live The Luxury</h1>
@@ -167,9 +170,9 @@
             Indore.
           </p>
         </div>
-        <!-- <div class="Shadow-img">
+        <div class="Shadow-img">
           <img src="images/overlay-shape2@2x.png" />
-        </div> -->
+        </div>
         <div class="contact-us">
           <div class="contact-left">
             <div class="elementskit-info-box-icon">
@@ -351,6 +354,8 @@
                 </div>
               </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
         </div>
       </div>
@@ -577,9 +582,9 @@
             <a href="#">Contact US</a>
           </div>
         </div>
-        <!-- <div class="over-img">
+        <div class="over-img">
           <img src="images/small-left-overlay-shape@2x.png" />
-        </div> -->
+        </div>
       </div>
     </div>
 
@@ -820,9 +825,9 @@
 
     <!-- footer -->
     <footer>
-      <!-- <div class="foo-img">
+      <div class="foo-img">
         <img src="images/footer-overlay.png" />
-      </div> -->
+      </div>
       <div class="container">
         <div class="ftop text-center">
           <a href="#">
@@ -944,38 +949,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".customer-logos").slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 1500,
-          arrows: false,
-          dots: false,
-          pauseOnHover: false,
-          responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 4,
-              },
-            },
-            {
-              breakpoint: 520,
-              settings: {
-                slidesToShow: 3,
-              },
-            },
-          ],
-        });
-      });
-      $(document).ready(function () {
-        $(".toast").toast("show");
-      });
-    </script> -->
-    <!-- <script src="./index.js"></script> -->
+
+    <script src="./index.js"></script>
+
     <script>
       var swiper = new Swiper(".card-slider", {
         centeredSlides: false,
