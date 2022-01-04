@@ -92,7 +92,8 @@ nav.navbar.navbar-light.navbar-expand-lg.bnav {
   width: 100%;
 }
 .sticky { 
-  background-color: #000 !important;
+  background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
   position: fixed;
   padding: 10px 0;
   height: 100px !important;
@@ -265,7 +266,7 @@ h1 {
 .Shadow-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .contact-us {
   box-shadow: var(--box-shadow);
@@ -554,7 +555,7 @@ i.fa.fa-building {
 .over-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .overlay h2 {
   font-size: 4rem;
@@ -632,7 +633,7 @@ i.fa.fa-phone {
 /* card */
 .card-demo .card {
   border: 0;
-  background: var(--background-color);
+  background: #000;
 }
 section.card-demo {
   margin: 50px 0;
@@ -1013,7 +1014,7 @@ footer {
 .foo-img img {
   width: 100%;
   opacity: var(--opacity-shadow);
-  opacity: 0.2;
+  opacity: 0.1;
 }
 footer p {
   color: #fff;
